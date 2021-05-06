@@ -1,0 +1,88 @@
+.row-header{
+    margin: 0px auto;
+    padding: auto;
+}
+
+.row-content{
+    margin: 0px auto;
+    padding: 50px 0 50px 0;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.footer{
+    background-color: #D1C4E9;
+    margin: 0px auto;
+    padding: 20px 0 20px 0;
+}
+
+.jumbotron{
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    background: #9575CD;
+    color: floralwhite;
+}
+
+.address{
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+}
+
+body {
+    padding-top: 50px;
+    z-index: 0;
+}
+
+.navbar-dark {
+    background-color: #512DA8;
+}
+
+.tab-content{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #333;
+    color: #eee;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+.social-links a:hover{
+    background-color: #512DA8;
+    color: white;
+}
+
+.carousel {
+    background: #512DA8;
+}
+
+.carousel-item{
+    height: 300px;
+}
+
+.carousel-item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+#carouselButton{
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+    z-index: 1;
+}
